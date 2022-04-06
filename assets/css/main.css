@@ -3081,7 +3081,6 @@ input, select, textarea {
 		background-repeat: no-repeat;
 		background-position: right center;
 		background-size: contain;
-		padding-right: 5em;
 	}
 
 		#header h1 {
@@ -3170,6 +3169,7 @@ input, select, textarea {
 
 			#header {
 				padding: 3em 2em 0.1em 2em ;
+				background-image: url('');
 			}
 
 				#header p {
@@ -3195,6 +3195,7 @@ input, select, textarea {
 
 			#header {
 				padding: 3em 1.5em 0.1em 1.5em ;
+				background-image: url('');
 			}
 
 				#header.alt {
@@ -3207,6 +3208,7 @@ input, select, textarea {
 
 			#header {
 				padding: 2.5em 1em 0.1em 1em ;
+				background-image: url('');
 			}
 
 				#header.alt {
