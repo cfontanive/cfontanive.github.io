@@ -3077,7 +3077,7 @@ input, select, textarea {
 	#header {
 		padding: 5em 5em 1em 5em ;
 		text-align: left;
-		background-image: url('../../images/icons.png');
+		background-image: url('images/icons.png');
 		background-repeat: no-repeat;
 		background-position: right center;
 		background-size: contain;
