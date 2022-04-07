@@ -3157,6 +3157,7 @@ input, select, textarea {
 
 			#header {
 				padding: 4em 3em 0.1em 3em ;
+				background-image: none !important;
 			}
 
 				#header.alt {
@@ -3169,7 +3170,7 @@ input, select, textarea {
 
 			#header {
 				padding: 3em 2em 0.1em 2em ;
-				background-image: url('');
+				background-image: none !important;
 			}
 
 				#header p {
@@ -3195,7 +3196,7 @@ input, select, textarea {
 
 			#header {
 				padding: 3em 1.5em 0.1em 1.5em ;
-				background-image: url('');
+				background-image: none !important;
 			}
 
 				#header.alt {
@@ -3208,7 +3209,7 @@ input, select, textarea {
 
 			#header {
 				padding: 2.5em 1em 0.1em 1em ;
-				background-image: url('');
+				background-image: none !important;
 			}
 
 				#header.alt {
