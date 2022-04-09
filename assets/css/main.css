@@ -2351,7 +2351,7 @@ input, select, textarea {
 		dl dt {
 			display: block;
 			font-weight: 400;
-			margin: 0 0 0em 0;
+			margin: 0 0 1em 0;
 			font-size: 0.9em;
 		}
 
@@ -2365,6 +2365,7 @@ input, select, textarea {
 			clear: left;
 			float: left;
 			margin: 0 0 0 0;
+			vertical-align: middle;
 		}
 
 		dl.alt dd {
@@ -2373,6 +2374,7 @@ input, select, textarea {
 			color: rgba(255, 255, 255, 0.8);
 			font-size: 0.9em;
 			line-height: 1.6em;
+			vertical-align: middle;
 
 		}
 
