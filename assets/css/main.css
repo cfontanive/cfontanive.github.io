@@ -3112,6 +3112,12 @@ input, select, textarea {
 					font-size: 1em;
 				}
 
+				#nav.alt {
+					position: fixed;
+					top: 0;
+					padding: 0.2em 0.5em;
+				}
+
 				#nav.alt ul li {
 					margin: 0 0;
 				}
