@@ -2316,18 +2316,16 @@ input, select, textarea {
 		margin: 0 0 0 0;
 		padding-left: 0.8em;
 		color: #426287;
-		font-size: 1.5em;
+		font-size: 1em;
 	}
 
 		ul li {
 			padding-left: 0.1em;
 			text-align: left;
 			padding-bottom: 0.4em;
-			font-size: 20px;
 		}
 
 		ul li span{
-			font-size: 0.95em;
 			color: #636363;
 		}
 
