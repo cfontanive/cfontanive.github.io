@@ -3098,11 +3098,26 @@ input, select, textarea {
 			#nav {
 				display: inline-block;
 				z-index: 10000;
-
+				width: 100%;
 			}
 
 				#nav + #main {
 					padding-top: 3em;
+				}
+
+				#nav ul li a {
+					height: 1.75em;
+					line-height: 1.75em;
+					padding: 0 0;
+					font-size: 1em;
+				}
+
+				#nav.alt ul li {
+					margin: 0 0;
+				}
+
+				#nav.alt ul li a {
+					font-size: 0.9em;
 				}
 
 		}
