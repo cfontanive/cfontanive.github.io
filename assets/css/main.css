@@ -3098,7 +3098,7 @@ input, select, textarea {
 			#nav {
 				display: inline-block;
 				z-index: 10000;
-				width: 100%;
+				width: 100% !important;
 				text-align: center;
 				font-size: 1em;
 			}
@@ -3110,6 +3110,7 @@ input, select, textarea {
 				#nav ul li a {
 					height: 1.75em;
 					line-height: 1.75em;
+					width:100% !important;
 				}
 
 		}
@@ -3193,6 +3194,7 @@ input, select, textarea {
 			}
 
 			#main .button-small {
+				border-radius: 50%;
 				height: 110px;
 				width: 110px;
 				margin: 0.5em;
