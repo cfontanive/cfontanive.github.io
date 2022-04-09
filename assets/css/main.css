@@ -3099,6 +3099,8 @@ input, select, textarea {
 				display: inline-block;
 				z-index: 10000;
 				width: 100%;
+				text-align: center;
+				font-size: 1em;
 			}
 
 				#nav + #main {
@@ -3162,11 +3164,11 @@ input, select, textarea {
 		#main input[type="button"],
 		#main button,
 		#main .button {
-			border-radius: 50%;
+			border-radius: 5%;
 			position: relative;
 			background-color: #426287;
 			color: #ffffff;
-			height: 130px;
+			height: 50px;
 			width: 130px;
 			text-decoration: none;
 		}
@@ -3187,7 +3189,7 @@ input, select, textarea {
 				font-size: 1em;
 				text-align: center;
 				vertical-align: middle;
-				line-height: 130px;
+				line-height: 50px;
 			}
 
 			#main .button-small {
