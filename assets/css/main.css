@@ -3108,14 +3108,12 @@ input, select, textarea {
 				#nav ul li a {
 					height: 1.75em;
 					line-height: 1.75em;
-					padding: 0 0;
 					font-size: 1em;
 				}
 
 				#nav.alt {
 					position: fixed;
 					top: 0;
-					padding: 0.2em 0.5em;
 				}
 
 				#nav.alt ul li {
