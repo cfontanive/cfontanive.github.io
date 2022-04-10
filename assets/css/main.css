@@ -2314,14 +2314,14 @@ input, select, textarea {
 	ul {
 		list-style: disc;
 		margin: 0 0 0 0;
-		padding-left: 0.8em;
 		color: #426287;
 		font-size: 1em;
 		display: inline-block;
+		flex-wrap: wrap;
+		vertical-align:middle;
 	}
 
 		ul li {
-			padding-left: 0.1em;
 			text-align: left;
 			padding-bottom: 0.4em;
 		}
@@ -3100,7 +3100,6 @@ input, select, textarea {
 				display: inline-block;
 				z-index: 10000;
 				text-align: center;
-				width: 100% !important;
 			}
 
 				#nav ul li {
