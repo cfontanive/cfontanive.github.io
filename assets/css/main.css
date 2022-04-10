@@ -2883,13 +2883,13 @@ input, select, textarea {
 
 			#header.alt h1 {
 				font-size: 3.25em;
-				font-weight: 3500;
+				font-weight: 350;
 				color: #ffffff;
 			}
 
 			#header.alt h2 {
 				font-size: 1.5em;
-				font-weight: 350;
+				font-weight: 300;
 				line-height: 1.25;
 				color: #ffffff;
 			}
@@ -3101,11 +3101,10 @@ input, select, textarea {
 				z-index: 10000;
 				text-align: center;
 				width: 100% !important;
-				max-width: calc(100% - 3.99em);
 			}
 
 				#nav ul li {
-					margin: 0 0.15em;
+					margin: 0 0.1em;
 				}
 
 				#nav ul li a {
