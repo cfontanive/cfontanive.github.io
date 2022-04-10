@@ -3165,6 +3165,11 @@ input, select, textarea {
 			border-color: #dddddd;
 		}
 
+		#main .contact {
+			text-align: right;
+			margin: -3.5em 0 3em 0;
+		}
+
 		#main input[type="submit"],
 		#main input[type="reset"],
 		#main input[type="button"],
@@ -3393,6 +3398,20 @@ input, select, textarea {
 					border-bottom-right-radius: 0;
 					border-bottom-left-radius: 0;
 				}
+
+		#main i.border {
+			border-radius: 50%;
+			border: solid gray;
+			padding: 0.4em;
+			border-width: 0.05em;
+			margin-right: 0.5em;
+			line-height: 1em;
+			vertical-align: center;
+			height: 1.78em;
+			width: 1.78em;
+			text-align: center;
+	}
+
 
 		@media screen and (max-width: 1280px) {
 
