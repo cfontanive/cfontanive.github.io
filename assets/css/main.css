@@ -1860,10 +1860,10 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		-moz-transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
-		-webkit-transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
-		-ms-transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
-		transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		border-radius: 50%;
 		border: 0;
 		cursor: pointer;
@@ -2894,14 +2894,14 @@ input, select, textarea {
 			}
 
 			#header.alt > * {
-				-moz-transition: opacity 0.1s ease;
-				-webkit-transition: opacity 0.1s ease;
-				-ms-transition: opacity 0.1s ease;
-				transition: opacity 0.1s ease;
-				-moz-transition-delay: 0.1s;
-				-webkit-transition-delay: 0.1s;
-				-ms-transition-delay: 0.1s;
-				transition-delay: 0.1s;
+				-moz-transition: opacity 0s ease;
+				-webkit-transition: opacity 0s ease;
+				-ms-transition: opacity 0s ease;
+				transition: opacity 0s ease;
+				-moz-transition-delay: 0s;
+				-webkit-transition-delay: 0s;
+				-ms-transition-delay: 0s;
+				transition-delay: 0s;
 				opacity: 1;
 			}
 
@@ -3103,10 +3103,14 @@ input, select, textarea {
 				width: 100% !important;
 			}
 
+				#nav ul li {
+					margin: 0 0.08em;
+				}
+
 				#nav ul li a {
 					height: 1.75em;
 					line-height: 1.75em;
-					font-size: 1.03em;					
+					font-size: 1.05em;					
 				}
 
 				#nav.alt {
@@ -3116,7 +3120,7 @@ input, select, textarea {
 				}
 
 				#nav.alt ul li a {
-					font-size: 0.97em;
+					font-size: 0.95em;
 				}
 		}
 
@@ -3168,6 +3172,12 @@ input, select, textarea {
 		#main .contact {
 			text-align: right;
 			margin: -3.5em 0 3em 0;
+		}
+
+		@media screen and (max-width: 736px) {
+			#main .contact {
+				font-size: 0.9em;
+			}
 		}
 
 		#main input[type="submit"],
