@@ -3101,6 +3101,7 @@ input, select, textarea {
 				z-index: 10000;
 				text-align: center;
 				width: 100% !important;
+				max-width: calc(100% - 1em);
 			}
 
 				#nav ul li {
