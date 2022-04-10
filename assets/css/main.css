@@ -120,7 +120,7 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #935d8c;
+		background-color: #082537;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -2196,7 +2196,7 @@ input, select, textarea {
 
 		select option {
 			color: #ffffff;
-			background: #935d8c;
+			background: #082537;
 		}
 
 	input[type="checkbox"] + label,
@@ -2214,7 +2214,7 @@ input, select, textarea {
 	input[type="radio"]:checked + label:before {
 		background-color: #ffffff;
 		border-color: #ffffff;
-		color: #935d8c;
+		color: #082537;
 	}
 
 	input[type="checkbox"]:focus + label:before,
@@ -2894,14 +2894,14 @@ input, select, textarea {
 			}
 
 			#header.alt > * {
-				-moz-transition: opacity 0s ease;
-				-webkit-transition: opacity 0s ease;
-				-ms-transition: opacity 0s ease;
-				transition: opacity 0s ease;
-				-moz-transition-delay: 0s;
-				-webkit-transition-delay: 0s;
-				-ms-transition-delay: 0s;
-				transition-delay: 0s;
+				-moz-transition: opacity 0.1s ease;
+				-webkit-transition: opacity 0.1s ease;
+				-ms-transition: opacity 0.1s ease;
+				transition: opacity 0.1s ease;
+				-moz-transition-delay: 0.1s;
+				-webkit-transition-delay: 0.1s;
+				-ms-transition-delay: 0.1s;
+				transition-delay: 0.1s;
 				opacity: 1;
 			}
 
@@ -2954,22 +2954,22 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#header {
-				padding: 3em 1.5em 0.1em 1.5em ;
+				padding: 3em 1em 0.1em 1em ;
 			}
 
 				#header.alt {
-					padding: 4em 1.5em 1em 1.5em ;
+					padding: 4em 1em 1em 1em ;
 				}
 		}
 
 		@media screen and (max-width: 360px) {
 
 			#header {
-				padding: 2.5em 1em 0.1em 1em ;
+				padding: 2.5em 0.8em 0.1em 0.8em ;
 			}
 
 				#header.alt {
-					padding: 3.5em 1em 0.5em 1em ;
+					padding: 3.5em 0.8em 0.5em 0.8em ;
 				}
 		}
 
@@ -3100,19 +3100,20 @@ input, select, textarea {
 				z-index: 10000;
 				width: 100% !important;
 				text-align: center;
-				font-size: 1em;
+				font-size: 0.95em;
 			}
-
-				#nav + #main {
-					padding-top: 3em;
-				}
 
 				#nav ul li a {
 					height: 1.75em;
 					line-height: 1.75em;
-					width:100% !important;
+					font-size: 0.95em;					
 				}
 
+				#nav.alt {
+					position: fixed;
+					top: 0;
+					padding: 0.5em 0em;
+				}
 		}
 
 /* Main */
@@ -3165,7 +3166,7 @@ input, select, textarea {
 		#main input[type="button"],
 		#main button,
 		#main .button {
-			border-radius: 5%;
+			border-radius: 0.25em;
 			position: relative;
 			background-color: #426287;
 			color: #ffffff;
@@ -3195,19 +3196,20 @@ input, select, textarea {
 
 			#main .button-small {
 				border-radius: 50%;
-				height: 110px;
-				width: 110px;
+				height: 90px;
+				width: 90px;
 				margin: 0.5em;
 			}
 
 			#main .button-small h4 {
 				font-size: 1em;
-				line-height: 110px;
+				line-height: 90px;
 				text-align: center;
 				vertical-align: middle;
 			}
 
 			#main .button-xs {
+				border-radius: 50%;
 				height: 10px;
 				width: 10px;
 				margin: 0.4em -0.3em 0 0;
