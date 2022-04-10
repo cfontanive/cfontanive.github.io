@@ -14,6 +14,7 @@
 		<script src="https://kit.fontawesome.com/ab610edef0.js" crossorigin="anonymous"></script>
 		<style>p {text-align: justify;}</style>
 		<style>a:link{text-decoration: none!important;}</style>
+		<style>.pdfobject-container {width: 100%;height: 800px;}</style>
 	</head>
 
 
@@ -47,7 +48,7 @@
 							<section id="publications" class="main special">
 								<p class="contact"><i class="fa fa-solid fa-envelope border fa-sm"></i>Get in touch at <a href="mailto: clemence.fontanive@unibe.ch">clemence.fontanive@unibe.ch</a></p>
 								<header class="major">
-									<h2>Publication List</h2>
+									<h2>Publications</h2>
 								</header>
 								<ul class="actions" style="justify-content: left; align-items: center; margin-bottom:2em" >
 									<li><h4>See in ADS:</h4></li>
@@ -57,11 +58,8 @@
 									</ul></li>
 								</ul>
 								<h6 style="text-align: right"><i>Download publication list <a href="images/CFontanive_publications.pdf" download rel="noopener noreferrer" target="_blank">here</a></i></h6>
-								<object data="images/CFontanive_publications.pdf" type="application/pdf" width="100%" height="800px" style="margin-bottom:2em">
-    								<param name="view" value="Fit" />
-								</object>
-							</section>
-
+								<div id="mypdf" style="margin:-1.5em 0 2em 0"></div>
+								</section>
 					</div>
 
 
@@ -101,6 +99,13 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/pdfobject.js"></script>
+			<script>
+				var options = {
+					pdfOpenParams: {view: "FitV",toolbar: 0},
+					fallbackLink: "<p>This is a <a href='[url]'>fallback link</a></p>",
+				};
+			PDFObject.embed("images/CFontanive_publications.pdf", "#mypdf", options);</script>
 
 	</body>
 </html>
