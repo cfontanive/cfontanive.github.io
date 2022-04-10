@@ -3101,17 +3101,17 @@ input, select, textarea {
 				z-index: 10000;
 				text-align: center;
 				width: 100% !important;
-				max-width: calc(100% - 3em);
+				max-width: calc(100% - 2.5em);
 			}
 
 				#nav ul li {
-					margin: 0 0.2em;
+					margin: 0 0.15em;
 				}
 
 				#nav ul li a {
 					height: 1.75em;
 					line-height: 1.75em;
-					font-size: 1.1em;					
+					font-size: 1.05em;					
 				}
 
 				#nav.alt ul li {
@@ -3175,10 +3175,19 @@ input, select, textarea {
 			margin: -3.5em 0 3em 0;
 		}
 
+			#main .contact i.border {
+				vertical-align: top;
+			}	
+
 		@media screen and (max-width: 736px) {
 			#main .contact {
 				font-size: 0.9em;
 			}
+
+				#main .contact i.border {
+					vertical-align: top;
+					border-color: transparent;
+				}
 		}
 
 		#main input[type="submit"],
