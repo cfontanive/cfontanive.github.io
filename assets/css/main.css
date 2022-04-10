@@ -3100,12 +3100,8 @@ input, select, textarea {
 				display: inline-block;
 				z-index: 10000;
 				text-align: center;
+				width: 100% !important;
 			}
-
-				#nav ul li {
-					width: 100% !important;
-					float:none !important;
-				}
 
 				#nav ul li a {
 					height: 1.75em;
