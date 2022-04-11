@@ -2998,6 +2998,7 @@ input, select, textarea {
 		border-top-right-radius: 0.25em;
 		cursor: default;
 		text-align: center;
+		margin-bottom: 0;
 	}
 
 		#nav input, #nav select, #nav textarea {
