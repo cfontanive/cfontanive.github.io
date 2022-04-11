@@ -3395,6 +3395,22 @@ input, select, textarea {
   					margin: 2em 0 1em 0 ;
 				}
 
+		#main .contact {
+			text-align: left;
+		}
+
+			#main .contact i.border {
+				vertical-align: top;
+			}	
+
+		@media screen and (max-width: 736px) {
+			#main .contact i.border {
+				border-color: transparent;
+			}
+
+		}
+
+
 		#main header.major h2:after {
 			height: 4px;
 			background-color: #082537;
