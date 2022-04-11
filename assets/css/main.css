@@ -3362,7 +3362,7 @@ input, select, textarea {
 		}
 
 		#main .small-margin dl {
-			grid-template-columns: 10% auto;
+			grid-template-columns: 12% auto;
 		}  
 			
 			#main dt {
@@ -3373,6 +3373,10 @@ input, select, textarea {
   				font-weight: 400;
   				margin: 0 2em 0 0 ;
 			}
+
+			#main .small-margin dt {
+				margin: 0 1.5em 0 0 ;
+			}  
 
 				#main dt h4 {
   					text-align: right;
