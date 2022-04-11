@@ -2873,9 +2873,35 @@ input, select, textarea {
 			margin: 0 0 0.25em 0;
 		}
 
+		#header h2 {
+			margin: 0 0 0.4em 0;
+		}
+
 		#header p {
-			font-size: 1.25em;
+			font-size: 0.95em;
 			letter-spacing: -0.025em;
+			text-align: center;
+			color: rgba(255, 255, 255, 0.75);
+			font-weight: 200;
+		}
+
+		#header .contact {
+			text-align: center;
+			margin: 0;
+			padding: 0;
+		}
+
+			#header .contact i.border {
+				vertical-align: top;
+				border-color: transparent;
+				margin-right: 0.4em;
+			}	
+
+		@media screen and (max-width: 736px) {
+			#header .contact {
+				font-size: 0.9em;
+			}
+
 		}
 
 		#header.alt {
@@ -3168,24 +3194,6 @@ input, select, textarea {
 
 		#main .box {
 			border-color: #dddddd;
-		}
-
-		#main .contact {
-			text-align: right;
-			margin: -8% 0 3em 0;
-			padding: 0;
-		}
-
-			#main .contact i.border {
-				vertical-align: top;
-				border-color: transparent;
-			}	
-
-		@media screen and (max-width: 736px) {
-			#main .contact {
-				font-size: 0.9em;
-			}
-
 		}
 
 		#main input[type="submit"],
