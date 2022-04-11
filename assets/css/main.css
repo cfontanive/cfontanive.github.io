@@ -3013,6 +3013,10 @@ input, select, textarea {
 		cursor: default;
 		text-align: center;
 		margin-bottom: 0;
+		left: 50%;
+		-webkit-transform: translateX(-50%);
+		transform: translateX(-50%);
+
 	}
 
 		#nav input, #nav select, #nav textarea {
