@@ -2894,6 +2894,10 @@ input, select, textarea {
 				font-size: 0.9em;
 			}
 
+			#header .contact i.border {
+				border-color: transparent;
+			}
+
 		}
 
 		#header.alt {
