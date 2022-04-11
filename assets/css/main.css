@@ -2874,7 +2874,7 @@ input, select, textarea {
 		}
 
 		#header h2 {
-			margin: 0 0 0.4em 0;
+			margin: 0 0 0.45em 0;
 		}
 
 		#header p {
@@ -2882,20 +2882,8 @@ input, select, textarea {
 			letter-spacing: -0.025em;
 			text-align: center;
 			color: rgba(255, 255, 255, 0.75);
-			font-weight: 200;
-		}
-
-		#header .contact {
-			text-align: center;
-			margin: 0;
-			padding: 0;
-		}
-
-			#header .contact i.border {
-				vertical-align: top;
-				border-color: transparent;
-				margin-right: 0.4em;
-			}	
+			margin: 0 0 -0.1em 0;
+		}	
 
 		@media screen and (max-width: 736px) {
 			#header .contact {
