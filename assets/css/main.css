@@ -3363,7 +3363,13 @@ input, select, textarea {
 
 		#main .small-margin dl {
 			grid-template-columns: 12% auto;
-		}  
+		} 
+
+		#main .contact-details dl {
+			margin: 0 auto;
+			justify-content: center;
+			grid-template-columns: 8em auto;
+		} 
 			
 			#main dt {
   				grid-column: 1;
@@ -3376,6 +3382,11 @@ input, select, textarea {
 
 			#main .small-margin dt {
 				margin: 0 1.5em 0 0 ;
+			}
+
+			#main .contact-details dt {
+				margin: 0 1.5em 1.5em 0 ;
+				text-align: left;
 			}  
 
 				#main dt h4 {
@@ -3675,5 +3686,4 @@ input, select, textarea {
 			}
 
 		}
-
 
