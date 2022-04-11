@@ -3352,9 +3352,42 @@ input, select, textarea {
 			border-top-color: #dddddd;
 		}
 
-		#main dl dt {
-			color: #636363;
+		#main dl {
+  			display: grid;
+  			flex-wrap: wrap;
+  			grid-template-columns: 15% auto;
 		}
+			
+			#main dt {
+  				grid-column: 1;
+  				text-align: right;
+  				color: #636363;
+  				font-size: 1em;
+  				font-weight: 400;
+  				margin: 0 2em 0 0 ;
+			}
+
+				#main dt h4 {
+  					text-align: right;
+  					line-height: 0.8;
+  					margin: 2em 0 1em 0 ;
+				}
+
+			#main dd {
+  				grid-column: 2;
+  				text-align: left;
+  				color: #636363;
+  				font-size: 1em;
+  				font-weight: 350;
+  				margin: 0 0 1em 0;
+			}
+
+				#main dd h4 {
+  					text-align: left;
+  					line-height: 0.8;
+  					margin: 2em 0 1em 0 ;
+				}
+
 
 		#main header.major h2:after {
 			height: 4px;
