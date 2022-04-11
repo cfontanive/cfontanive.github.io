@@ -3171,7 +3171,8 @@ input, select, textarea {
 
 		#main .contact {
 			text-align: right;
-			margin: -5em 0 3em 0;
+			margin: -3em 0 3em 0;
+			padding: 0;
 		}
 
 			#main .contact i.border {
