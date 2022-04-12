@@ -88,6 +88,10 @@ input, select, textarea {
 			min-width: 320px;
 		}
 
+		figure img {
+			width: 95% !important;
+		}
+
 	}
 
 	html {
