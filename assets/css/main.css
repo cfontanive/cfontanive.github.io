@@ -3400,8 +3400,7 @@ input, select, textarea {
 
 				#main dt h4 {
   					text-align: right;
-  					line-height: 0.8;
-  					margin: 2em 0 1em 0 ;
+  					margin: 2em 0 0.5em 0 ;
 				}
 
 			#main dd {
@@ -3415,8 +3414,7 @@ input, select, textarea {
 
 				#main dd h4 {
   					text-align: left;
-  					line-height: 0.8;
-  					margin: 2em 0 1em 0 ;
+  					margin: 2em 0 0.5em 0 ;
 				}
 
 		#main .contact {
