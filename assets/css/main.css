@@ -87,11 +87,16 @@ input, select, textarea {
 		html, body {
 			min-width: 320px;
 		}
+	}
 
+	@media screen and (max-width: 736px) {
 		figure img {
 			width: 95% !important;
 		}
 
+		figure figcaption  {
+			margin: 0 2.5% 0 2.5% !important;
+		}
 	}
 
 	html {
