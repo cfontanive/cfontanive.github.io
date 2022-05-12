@@ -57,8 +57,8 @@
 									<li><span><a href="#project2">Project 2</a>:&nbsp; Brown Dwarf Multiplicity Statistics</span></li>
 									<li><span><a href="#project3">Project 3</a>:&nbsp; Precise Distances of the Coldest Brown Dwarfs</span></li>
 									<li><span><a href="#project4">Project 4</a>:&nbsp; Exoplanets in Binary Star Systems</span></li>
-									<li><span><a href="#project5">Project 5</a>:&nbsp; Occurrences of Wide-Orbit Gas Giant Planets</span></li>
-									<li><span><a href="#project6">Project 6</a>:&nbsp; Target Selection for Imaging Programs with COPAINS</span></li>
+									<li><span><a href="#project5">Project 5</a>:&nbsp; Finding Directly-Imaged Companions with COPAINS</span></li>
+									<li><span><a href="#project6">Project 6</a>:&nbsp; Occurrences of Wide-Orbit Gas Giant Planets</span></li>
 								</ul>
 							</section>
 
@@ -144,10 +144,45 @@
 							</section>
 
 
-							<!-- Project 5 -->
+							<!-- Project5 -->
 							<section id="project5" class="main special">
 								<div style="text-align: left;">
 									<button class="button button-small" disabled style="display: inline-block;"><a><h4>Project 5</h4></a></button>
+									<h4 style="display: inline-block;">Finding Directly-Imaged Companions with COPAINS</h4>
+								</div>
+								<p>The wobble of a star in its orbit induced by the gravitational pull of a companion is one of the most efficient ways to detect that companion. When the movement is in the plane of the sky, it can be visible as a change over time in the star’s motion across the sky. A non-linear apparent trajectory may thus serve as evidence for the existence of an unseen companion.</p>
+								<figure>
+									<img src="images/COPAINS_logo.png" alt="Fontanive COPAINS astrometry imaging" width="50%" style="padding-right: 5%"/>
+									<img src="images/FORECAST_logo.png" alt="Fontanive Bonavita FORECAST" width="35%" style="padding-left: 5%"/>
+								<figcaption>
+									<h6></h6>
+								</figcaption>
+								</figure>
+								<p><b>To exploit this, we developped COPAINS, a new tool to identify previously undiscovered companions based on changes in stellar motions.</b> It allows us to predict the possible masses and separations of hidden companions compatible with observed proper motion offsets. Comparing the predictions of the code to the expected sensitivity of various imaging instruments, this in turn <b>enables us to robustly select the most promising targets for direct imaging campaigns</b> searching for low-mass companions, with the hope to increase the current census of wide brown dwarfs and giant planet companions to stars, which remain very rare in current surveys. We also designed FORECAST, a tool that predicts where in obtained images the unseen companion should be based on the direction of the proper motion change.</p>
+								<figure>
+									<img src="images/COPAINS_predictions.png" alt="Fontanive COPAINS astrometry imaging" width="50%" style="padding-left: 2%"/>
+									<figcaption style="margin: 0 10% 0 10%">
+										<h6> Predictions from COPAINS of possible hidden companions responsible for an observed astrometric trend, compared to detection limits from different facilities.
+										<br> <span style="font-size: 0.9em"><a href="https://ui.adsabs.harvard.edu/abs/2019MNRAS.490.1120F/abstract" target="_blank">Fontanive et al. 2019b</a>.</span></h6>
+									</figcaption>
+								</figure>
+								<p>In a pilot survey, we identified 25 stars with trends compatible with a low-mass secondary detectable in direct imaging observationss, carefully selected with COPAINS. We observed them with the SPHERE instrument at the Very Large Telescope, and detected <b>10 new companions: 5 low-mass stars, 1 white dwarf, and 4 brown dwarfs</b>. Around 40 directly-imaged brown dwarf companions had been found after almost three decades of searches, and our results strongly increase this number, by 10% in one go. Moreover, this represents a <b>significant boost in brown dwarf detection rates</b>, from ~5% in typical 'blind' imaging surveys, to 16% (or >20% for non-binary stars) with our informed search strategy. </p>
+								<figure>
+									<img src="images/Forecast_maps.png" alt="Fontanive Bonavita COPAINS brown dwarf SPHERE" width="80%"/>
+									<figcaption style="margin: 0 10% 0 10%">
+										<h6> Detection of a brown dwarf companion with SPHERE, and FORECAST map constraining the region of the image compatible with the astrometric signal, as a function of the companion's mass.
+										<br> <span style="font-size: 0.9em"><a href="https://ui.adsabs.harvard.edu/abs/2022arXiv220502213B/abstract" target="_blank">Bonavita, Fontanive et al. 2022</a>.</span></h6>
+									</figcaption>
+								</figure>
+
+							</section>
+
+
+
+							<!-- Project 6 -->
+							<section id="project6" class="main special">
+								<div style="text-align: left;">
+									<button class="button button-small" disabled style="display: inline-block;"><a><h4>Project 6</h4></a></button>
 									<h4 style="display: inline-block;">Occurrences of Wide-Orbit Gas Giant Planets</h4>
 								</div>
 								<p>The direct imaging method is the only way to <b>detect a planet based on its own emitted light</b>, rather than through the effect of the planet on its host star, but is only sensitive to very massive planets orbiting from very large distances. Constraining the demographics and architectures of giant exoplanets and brown dwarfs on wide orbits allows to test fingerprints of formation mechanisms, and provides rich sources of empirical constraints for planet formation and migration simulations.</p>
@@ -157,23 +192,6 @@
 									<figcaption style="margin: 0 20% 0 20%">
 										<h6>Planets and brown dwarfs detected in the SHINE direct imaging survey.
 										<br> <span style="font-size: 0.9em"><a href="https://ui.adsabs.harvard.edu/abs/2021A%26A...651A..72V/abstract" target="_blank">Vigan, Fontanive et al. 2021</a>.</span></h6>
-									</figcaption>
-								</figure>
-							</section>
-
-
-							<!-- Project6 -->
-							<section id="project6" class="main special">
-								<div style="text-align: left;">
-									<button class="button button-small" disabled style="display: inline-block;"><a><h4>Project 6</h4></a></button>
-									<h4 style="display: inline-block;">Target Selection for Imaging Programs with COPAINS</h4>
-								</div>
-								<p>The wobble of a star in its orbit induced by the gravitational pull of a companion is one of the most efficient ways to detect that companion. When the movement is in the plane of the sky, it can be visible as a change in the star’s apparent position. A nonlinear apparent motion may thus serve as evidence for the existence of an unseen companion.</p>
-								<p><b>COPAINS is a new tool developed to identify previously undiscovered companions based on changes in stellar motions.</b> This innovative procedure allows for dynamical predictions of the possible masses and separations of hidden companions compatible with observed astrometric trends. Comparing the predictions of the code to the measured or expected sensitivity from various imaging instruments, this in turn <b>enables us to robustly select the most promising targets for direct imaging campaigns</b> searching for low-mass companions. Such an informed selection method will significantly increase the current census of wide brown dwarfs and planetary companions to stars, which remain very rare in current surveys.</p>
-								<figure>
-									<img src="images/COPAINS_logo.png" alt="Fontanive COPAINS astrometry imaging" width="60%"/>
-									<figcaption style="margin: 0 20% 0 20%">
-										<h6><span style="font-size: 0.9em"><a href="https://ui.adsabs.harvard.edu/abs/2019MNRAS.490.1120F/abstract" target="_blank">Fontanive et al. 2019b</a>.</span></h6>
 									</figcaption>
 								</figure>
 							</section>
