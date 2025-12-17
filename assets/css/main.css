@@ -1860,27 +1860,34 @@ input, select, textarea {
 
 /* Button */
 
-input[type="submit"], 
-input[type="reset"], 
-input[type="button"], 
-button, .button { 
-	appearance: none; 
-	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out; 
-	border-radius: 6px; /* rounded corners instead of circle */ 
-	border: 0; 
-	cursor: pointer; 
-	display: inline-block; 
-	font-weight: 500; 
-	font-size: 1em; 
-	line-height: normal; /* let text define height */ 
-	padding: 0.75em 2em; /* space around text */ 
-	text-align: center; 
-	text-decoration: none !important; 
-	white-space: nowrap; 
-	margin: 1em; 
-	color: #ffffff; 
-	background-color: transparent; 
-}
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	button,
+	.button {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		border-radius: 6px;
+		border: 0;
+		cursor: pointer;
+		display: inline-block;
+		font-weight: 350;
+		font-size: 1em;
+		height: 3em; /* fixed height */ 
+		line-height: 2em; /* matches height → centers text */
+		padding: 0em 0em;
+		text-align: center;
+		text-decoration: none !important;
+		white-space: nowrap;
+		margin: 1em;
+		color: #ffffff;
+	}
 
 		button a:hover {
 			color: #000000;
