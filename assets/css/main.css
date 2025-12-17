@@ -1873,14 +1873,15 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		border-radius: 6px;
+		border-radius: 20px;
 		border: 0;
 		cursor: pointer;
 		display: inline-block;
-		font-weight: 350;
+		font-weight: 500;
 		font-size: 1em;
+		min-width: 150px;
 		height: 3em; /* fixed height */ 
-		line-height: 2em; /* matches height → centers text */
+		line-height: 2.2em; /* matches height → centers text */
 		padding: 0em 0em;
 		text-align: center;
 		text-decoration: none !important;
